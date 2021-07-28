@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f6f6f6;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 80%;
+  height: 520px;
+  overflow: hidden;
+  flex-direction: column;
+  background: darkslategrey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+}
+
+.footer ul li {
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  flex-direction: column;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  width: 100px;
+}
+h3 {
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  flex-direction: column;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500;
+  list-style: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+h3 {
+  border-bottom: 3px solid #555;
+  width: 120px;
+}
+
+.text-footer-2 ul li {
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  flex-direction: column;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+ul li:hover {
+  color: crimson;
+  transition: all 0.4s ease-in-out;
+  border-bottom: 2px solid #555;
+}
+
+.text-footer-2 ul li:hover {
+  width: 100px;
+}
+
+.text-footer-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 700px) {
+  .footer,
+  .text-footer-2,
+  .text-footer-3 {
+    flex-direction: column;
+  }
+}
+
+.text-for-footer-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  flex-direction: column;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  width: 130px;
+}
