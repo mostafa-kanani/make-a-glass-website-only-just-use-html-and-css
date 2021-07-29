@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #e0e0e0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.card-profile{
+  position: relative;
+  width: 490px;
+  height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #262626;
+}
+
+.bg-color-top{
+  width: 500px;
+  height: 170px;
+  background: crimson;
+  border-top: 1px solid #555;
+}
+
+img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.picture{
+  text-align: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.text-bottom-of-picture{
+  text-align: center;
+  align-items: center;
+  line-height: 60px;
+  color: #ffff;
+  letter-spacing: 5px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  word-spacing: 5px;
+  transition: all 0.4s ease-in-out;
+  text-shadow: 0 0 5px aqua, 
+  0 0 25px aqua, 
+  0 0 50px aqua, 
+  0 0 200px aqua; 
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.icon-follow{
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.icon-follow:hover{
+  color: crimson;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
