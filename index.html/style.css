@@ -7,13 +7,13 @@
 body {
   background: #f6f6f6;
   flex-direction: column;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   overflow: scroll;
 }
 
 .container {
   width: 80%;
-  height:590px;
+  height: 590px;
   overflow: hidden;
   flex-direction: column;
   background: darkslategrey;
@@ -22,11 +22,12 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 30px;
+  margin-top:510px; 
 }
 
 .footer ul li {
   margin: 20px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   overflow: hidden;
   flex-direction: column;
   color: #fff;
@@ -39,7 +40,7 @@ body {
 }
 h3 {
   margin: 20px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   overflow: hidden;
   flex-direction: column;
   color: #fff;
@@ -93,7 +94,7 @@ ul li:hover {
   }
 }
 
-.text-for-footer-3  {
+.text-for-footer-3 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -111,13 +112,13 @@ ul li:hover {
   margin-top: -150px;
   margin-left: -120px;
 }
-ul li{
+ul li {
   margin: 20px;
   list-style: none;
   width: 100px;
 }
 
-.text-for-footer-end{
+.text-for-footer-end {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -135,11 +136,10 @@ ul li{
   margin-top: 119px;
 }
 
-
-.input-for-search input{
+.input-for-search input {
   outline: none;
   border: none;
-  background: #f6f6f6; 
+  background: #f6f6f6;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -157,7 +157,7 @@ ul li{
   margin-top: -210px;
 }
 
-.fa-search{
+.fa-search {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -169,12 +169,12 @@ ul li{
   color: #555;
 }
 
-.fa-search:hover{
+.fa-search:hover {
   color: crimson;
   transition: all 0.2s ease-in-out;
 }
 
-.fa-arrow-right{
+.fa-arrow-right {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -187,12 +187,15 @@ ul li{
   z-index: 10;
 }
 
-.fa-arrow-right:hover{
+.fa-arrow-right:hover {
   color: crimson;
   transition: all 0.4s ease-in-out;
 }
 
-.fa-instagram,.fa-facebook,.fa-youtube,.fa-github{
+.fa-instagram,
+.fa-facebook,
+.fa-youtube,
+.fa-github {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -204,7 +207,7 @@ ul li{
   cursor: pointer;
   font-size: 50px;
   display: flex;
-  grid-template-columns: 3,1fr;
+  grid-template-columns: 3, 1fr;
   margin-left: 50px;
   background: #f6f6f6;
   width: 70px;
@@ -214,35 +217,35 @@ ul li{
   border-radius: 10px;
 }
 
-.fa-instagram:nth-child(2):hover{
+.fa-instagram:nth-child(2):hover {
   background: crimson;
   transition: all 0.2s ease-in-out;
   color: #ffff;
 }
 
-.fa-youtube:nth-child(6){
- width: 80px;
+.fa-youtube:nth-child(6) {
+  width: 80px;
 }
 
-.fa-github:nth-child(8):hover{
+.fa-github:nth-child(8):hover {
   background: crimson;
   color: #fff;
   transition: all 0.2s ease-in-out;
 }
 
-.fa-youtube:hover{
+.fa-youtube:hover {
   color: #f6f6f6;
   background: crimson;
   transition: all 0.2s ease-in-out;
 }
 
-.fa-facebook:hover{
+.fa-facebook:hover {
   background: crimson;
   color: #f6f6f6;
   transition: all 0.2s ease-in-out;
 }
 
-#text-footer{
+#text-footer {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -251,34 +254,34 @@ ul li{
   margin-left: 260px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  color:#fff; 
+  color: #fff;
   line-height: 70px;
   letter-spacing: 3px;
   text-transform: capitalize;
 }
 
-span::selection{
+span::selection {
   background: aqua;
   color: #000;
   border-radius: 20px;
 }
 
-  .fa-phone-alt{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    font-size: 30px;
-    color: #fff;
-    margin-left: 90px;
-    margin-top: -75px;
+.fa-phone-alt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 30px;
+  color: #fff;
+  margin-left: 90px;
+  margin-top: -75px;
 }
-.fa-phone-alt:hover{
+.fa-phone-alt:hover {
   color: crimson;
 }
 
-.fa-map{
+.fa-map {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -289,11 +292,11 @@ span::selection{
   margin-left: 90px;
   margin-top: 70px;
 }
-.fa-map:hover{
+.fa-map:hover {
   color: crimson;
 }
 
-.fa-envelope{
+.fa-envelope {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -304,6 +307,6 @@ span::selection{
   font-size: 30px;
 }
 
-.fa-envelope:hover{
+.fa-envelope:hover {
   color: crimson;
 }
