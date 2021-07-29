@@ -134,3 +134,95 @@ ul li{
   margin-left: -120px;
   margin-top: 119px;
 }
+
+
+.input-for-search input{
+  outline: none;
+  border: none;
+  background: #f6f6f6; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: #555;
+  width: 320px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  display: flex;
+  margin-left: 250px;
+  margin-top: -210px;
+}
+
+.fa-search{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 120px;
+  margin-top: -210px;
+  z-index: 10;
+  cursor: pointer;
+  color: #555;
+}
+
+.fa-search:hover{
+  color: crimson;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa-arrow-right{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #555;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: -210px;
+  margin-left: 31%;
+  z-index: 10;
+}
+
+.fa-arrow-right:hover{
+  color: crimson;
+  transition: all 0.4s ease-in-out;
+}
+
+.fa-instagram,.fa-facebook,.fa-youtube,.fa-github{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  margin: 15px;
+  z-index: 10;
+  margin-top: -100%;
+  color: #f6f6f6;
+  cursor: pointer;
+  font-size: 50px;
+  display: flex;
+  grid-template-columns: 3,1fr;
+  margin-left: 50px;
+  background: #f6f6f6;
+  width: 70px;
+  padding: 4px;
+  color: #555;
+  padding-left: 13px;
+}
+
+.fa-instagram:nth-child(2):hover{
+  background: crimson;
+  transition: all 0.4s ease-in-out;
+  color: #ffff;
+}
+
+.fa-youtube:nth-child(6){
+ width: 80px;
+}
+
+
+
