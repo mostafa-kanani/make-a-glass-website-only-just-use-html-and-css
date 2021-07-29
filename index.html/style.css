@@ -1,9 +1,9 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   display: flex;
@@ -13,10 +13,10 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-.card-profile{
+.card-profile {
   position: relative;
   width: 490px;
   height: 600px;
@@ -25,26 +25,26 @@ body{
   background: #262626;
 }
 
-.bg-color-top{
+.bg-color-top {
   width: 500px;
   height: 170px;
   background: crimson;
   border-top: 1px solid #555;
 }
 
-img{
+img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
-.picture{
+.picture {
   text-align: center;
   align-items: center;
   margin-top: 16px;
 }
 
-.text-bottom-of-picture{
+.text-bottom-of-picture {
   text-align: center;
   align-items: center;
   line-height: 60px;
@@ -54,24 +54,111 @@ img{
   text-transform: capitalize;
   word-spacing: 5px;
   transition: all 0.4s ease-in-out;
-  text-shadow: 0 0 5px aqua, 
-  0 0 25px aqua, 
-  0 0 50px aqua, 
-  0 0 200px aqua; 
+  text-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 50px aqua, 0 0 200px aqua;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
 
-.icon-follow{
+.icon-follow {
   color: #fff;
   text-align: center;
   align-items: center;
   margin-top: 10px;
   font-size: 30px;
+  margin-left: -20px;
 }
 
-.icon-follow:hover{
+.icon-follow:hover {
   color: crimson;
   cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+span {
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 50px aqua, 0 0 200px aqua;
+  cursor: pointer;
+}
+
+.fa-search {
+  color: #fff;
+  margin-left: 400px;
+  margin-top: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-bars {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-search:hover {
+  color: blueviolet;
+  transition: all 0.4s ease-in-out;
+}
+
+.fa-bars:hover {
+  color: blueviolet;
+  transition: all 0.4s ease-in-out;
+}
+
+.information-about-card {
+  color: #ffff;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: -62px;
+}
+
+.fa-comment,
+.fa-search-location,
+.fa-share-alt {
+  margin: 50px;
+}
+
+.fa-comment {
+  color: cornflowerblue;
+}
+
+.fa-cog {
+  color: cornflowerblue;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  display: flex;
+}
+
+button {
+  outline: none;
+  border: none;
+  margin: 40px;
+  margin-top: 540px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #fff;
+  background: mediumturquoise;
+  cursor: pointer;
+}
+
+button:hover {
+  background: orangered;
+  color: #fff;
   transition: all 0.4s ease-in-out;
 }
