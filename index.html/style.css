@@ -7,6 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
+  background: #e0e0e0;
 }
 
 .container {
@@ -137,7 +138,7 @@ ul li {
   transition: all 0.2s ease-in-out;
 }
 
-.icon-media{
+.icon-media {
   color: #fff;
   margin-left: 800px;
   margin-top: 12px;
@@ -145,30 +146,29 @@ ul li {
   cursor: pointer;
 }
 
-.fa-github,.fa-youtube,.fa-instagram,.fa-linkedin{
+.fa-github,
+.fa-youtube,
+.fa-instagram,
+.fa-linkedin {
   margin: 15px;
   transition: all 0.4s ease;
-  border-radius: 50%;
+  border-bottom: 3px solid rgb(135, 206, 235);
 }
 
-.fa-github:hover:nth-child(2){
-   color: rgb(135, 206, 235);
-   border: 3px solid rgb(135, 206, 235);
-}
-
-.fa-instagram:hover:nth-child(6){
+.fa-github:hover:nth-child(2) {
   color: rgb(135, 206, 235);
-  border: 3px solid rgb(135, 206, 235);
 }
 
-.fa-linkedin:hover:nth-child(8){
-   color: rgb(135, 206, 235);
-   border: 3px solid rgb(135, 206, 235);
-}
-
-.fa-youtube:hover:nth-child(4){
+.fa-instagram:hover:nth-child(6) {
   color: rgb(135, 206, 235);
-  border: 3px solid rgb(135, 206, 235);
+}
+
+.fa-linkedin:hover:nth-child(8) {
+  color: rgb(135, 206, 235);
+}
+
+.fa-youtube:hover:nth-child(4) {
+  color: rgb(135, 206, 235);
 }
 
 .btn {
@@ -185,7 +185,7 @@ ul li {
   font-weight: 500;
   letter-spacing: 2px;
 }
-button{
+button {
   outline: none;
   border: none;
   width: 250px;
@@ -201,9 +201,8 @@ button{
   margin: 20px;
 }
 
-button:hover{
+button:hover {
   background: rgb(135, 206, 235);
   transition: all 0.2s ease;
   border: 3px solid rgb(135, 206, 235);
 }
-
