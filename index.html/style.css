@@ -9,6 +9,7 @@ body {
   background: slateblue;
   overflow: hidden;
   display: flex;
+  z-index: 50;
 }
 :root {
   --light-blue-color: #14ffe9;
@@ -208,7 +209,7 @@ span {
 }
 
 .line {
-  width: 350px;
+  width: 340px;
   height: 30px;
   background: darkblue;
   position: absolute;
@@ -217,4 +218,67 @@ span {
   transform: translate(-50%, -50%);
   border-radius: 50px;
   margin-top: 52px;
+}
+
+.main-active-games-2{
+  width: 450px;
+  height: 150px;
+  background: #f6f6f6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.line-2{
+  width: 340px;
+  height: 30px;
+  background: darkblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  margin-top: 52px;
+}
+.picture-main-2{
+  text-align: center;
+  object-fit: cover;
+}
+
+.main-active-games-3{
+  width: 450px;
+  height: 120px;
+  background: #f6f6f6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  align-items: center;
+  margin-top: 160px;
+  overflow: hidden;
+}
+
+.line-3{
+  width: 340px;
+  height: 30px;
+  background: darkblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  margin-top: 200px;
+  z-index: 11;
+}
+
+.picture-main-3{
+  text-align: center;
+  align-items: center;
+  margin-top: 300px;
+  z-index: 15;
 }
