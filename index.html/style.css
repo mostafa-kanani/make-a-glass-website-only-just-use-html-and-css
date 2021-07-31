@@ -1,38 +1,39 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
-  background:slateblue;
+  background: slateblue;
   overflow: hidden;
   display: flex;
 }
-:root{
-  --light-blue-color:#14ffe9; 
-  --bg-color:#ff00e0; 
-  --color-pink:#ff00e0; 
-  --glass-color:rgba( 255, 255, 255, 0.50 );
+:root {
+  --light-blue-color: #14ffe9;
+  --bg-color: #ff00e0;
+  --color-pink: #ff00e0;
+  --glass-color: rgba(255, 255, 255, 0.5);
 }
-body::before{
+body::before {
   content: "";
   position: relative;
   width: 400px;
   height: 400px;
-  background:radial-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  background: radial-gradient(#14ffe9, #ffeb3b, #ff00e0);
   border-radius: 50%;
   margin-left: 360px;
   margin-top: 12px;
   overflow: hidden;
 }
 
-body::after{
+body::after {
   content: "";
   position: relative;
   width: 400px;
   height: 400px;
-  background: linear-gradient(red,#ffeb3b,#14ffe9);
+  background: linear-gradient(red, #ffeb3b, #14ffe9);
   border-radius: 50%;
   margin-left: -100px;
   margin-top: 400px;
@@ -40,23 +41,23 @@ body::after{
   display: flex;
 }
 
-.container{
+.container {
   width: 900px;
   height: 700px;
   position: absolute;
-  background: rgba( 255, 255, 255, 0.50 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 50px );
-  -webkit-backdrop-filter: blur( 4px );
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: 11;
 }
 
-.fa-user{
+.fa-user {
   color: blueviolet;
   font-size: 50px;
   margin: 40px;
@@ -65,7 +66,7 @@ body::after{
   margin-top: 15px;
 }
 
-h2{
+h2 {
   color: #555;
   font-size: 30px;
   font-family: sans-serif;
@@ -73,96 +74,147 @@ h2{
   letter-spacing: 3px;
   word-spacing: 2px;
   overflow: hidden;
-  margin: 10px; 
+  margin: 10px;
   margin-top: -10px;
   margin-left: 10px;
 }
-.picture-1{
- margin-top: 10px;
- object-fit: cover;
- overflow: hidden;
- cursor: pointer;
+.picture-1 {
+  margin-top: 10px;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
 }
-.picture-2{
+.picture-2 {
   object-fit: cover;
 }
 
-img{
+img {
   border-radius: 50%;
   margin: 10px;
   cursor: pointer;
 }
 
-.picture-end{
+.picture-end {
   margin-top: -40px;
   cursor: pointer;
   object-fit: cover;
 }
-.picture-end{
+.picture-end {
   margin-top: -60px;
   cursor: pointer;
 }
-.bg-color-diffrente-dashboard{
-  background: rgba( 255, 255, 255, 0.50 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+.bg-color-diffrente-dashboard {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   width: 230px;
   height: 100%;
   transition: all 0.4s ease-in-out;
 }
 
-.bg-color-diffrente-dashboard:hover{
+.bg-color-diffrente-dashboard:hover {
   width: 280px;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
 
-h2:hover{
+h2:hover {
   color: blueviolet;
 }
 
-.main-active input{
+.main-active input {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   outline: none;
   border: none;
   width: 400px;
-  height: 80px; 
+  height: 80px;
   border-radius: 70px;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); 
-  background:var(--glass-color); 
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: var(--glass-color);
   text-align: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   font-weight: 500;
-  font-family: sans-serif; 
+  font-family: sans-serif;
   letter-spacing: 2px;
   font-size: 25px;
-  margin-top: -300px; 
+  margin-top: -220px;
   margin-left: 95px;
   border: 2px solid #555;
 }
-.icon-input{
+.icon-input {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #555;
   font-size: 20px;
-  margin-top: -300px;
+  margin-top: -220px;
   margin-left: -70px;
 }
 
-.icon-2{
+.icon-2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #555;
-  margin-top: -300px;
+  margin-top: -220px;
   margin-left: 250px;
   cursor: pointer;
   font-size: 20px;
+}
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  text-align: center;
+  color: #555;
+  font-size: 45px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: 100px;
+  margin-top: -300px;
+}
+
+.main-active-games {
+  width: 450px;
+  height: 150px;
+  background: #f6f6f6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: -80px;
+}
+.pictur-main {
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -20px;
+}
+
+.line {
+  width: 350px;
+  height: 30px;
+  background: darkblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  margin-top: 52px;
 }
