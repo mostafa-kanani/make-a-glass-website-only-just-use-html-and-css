@@ -13,6 +13,7 @@ body{
   --light-blue-color:#14ffe9; 
   --bg-color:#ff00e0; 
   --color-pink:#ff00e0; 
+  --glass-color:rgba( 255, 255, 255, 0.50 );
 }
 body::before{
   content: "";
@@ -110,7 +111,7 @@ img{
 }
 
 .bg-color-diffrente-dashboard:hover{
-  width: 350px;
+  width: 280px;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
@@ -119,4 +120,49 @@ h2:hover{
   color: blueviolet;
 }
 
+.main-active input{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  outline: none;
+  border: none;
+  width: 400px;
+  height: 80px; 
+  border-radius: 70px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); 
+  background:var(--glass-color); 
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-family: sans-serif; 
+  letter-spacing: 2px;
+  font-size: 25px;
+  margin-top: -300px; 
+  margin-left: 95px;
+  border: 2px solid #555;
+}
+.icon-input{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #555;
+  font-size: 20px;
+  margin-top: -300px;
+  margin-left: -70px;
+}
 
+.icon-2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #555;
+  margin-top: -300px;
+  margin-left: 250px;
+  cursor: pointer;
+  font-size: 20px;
+}
