@@ -185,9 +185,10 @@ span {
   margin-top: -300px;
 }
 
-.main-active-games {
+.main-active-1{
+  
   width: 450px;
-  height: 150px;
+  height: 180px;
   background: #f6f6f6;
   position: absolute;
   top: 50%;
@@ -196,33 +197,26 @@ span {
   border-radius: 30px;
   align-items: center;
   margin-left: 100px;
-  margin-top: -80px;
+  margin-top: -70px;
 }
-.pictur-main {
+
+.picture{
   text-align: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: -20px;
+  object-fit:cover;
 }
 
-.line {
-  width: 340px;
-  height: 30px;
+.line{
+  width: 300px;
+  height: 35px;
   background: darkblue;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border-radius: 50px;
-  margin-top: 52px;
+  margin-left: 80px;
+  margin-top: -6px;
 }
 
-.main-active-games-2{
+.main-active-2{
   width: 450px;
-  height: 150px;
+  height: 180px;
   background: #f6f6f6;
   position: absolute;
   top: 50%;
@@ -230,55 +224,19 @@ span {
   transform: translate(-50%, -50%);
   border-radius: 30px;
   align-items: center;
-  margin-top: 200px;
+  margin-left: -1px;
+  margin-top: 250px;
 }
 
-.line-2{
-  width: 340px;
-  height: 30px;
+.line-1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 35px;
   background: darkblue;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border-radius: 50px;
-  margin-top: 52px;
-}
-.picture-main-2{
-  text-align: center;
-  object-fit: cover;
-}
-
-.main-active-games-3{
-  width: 450px;
-  height: 120px;
-  background: #f6f6f6;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 30px;
-  align-items: center;
-  margin-top: 160px;
-  overflow: hidden;
-}
-
-.line-3{
-  width: 340px;
-  height: 30px;
-  background: darkblue;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50px;
-  margin-top: 200px;
-  z-index: 11;
-}
-
-.picture-main-3{
-  text-align: center;
-  align-items: center;
-  margin-top: 300px;
-  z-index: 15;
+  margin-left: 10px;
+  margin-top: 70px;
 }
