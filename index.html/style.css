@@ -5,7 +5,7 @@
 body{
   margin: 0;
   padding: 0;
-  background:orangered;
+  background:slateblue;
   overflow: hidden;
   display: flex;
 }
@@ -17,11 +17,11 @@ body{
 body::before{
   content: "";
   position: relative;
-  width:300px;
-  height: 300px;
-  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  width: 400px;
+  height: 400px;
+  background:radial-gradient(#14ffe9, #ffeb3b, #ff00e0);
   border-radius: 50%;
-  margin-left: 380px;
+  margin-left: 360px;
   margin-top: 12px;
   overflow: hidden;
 }
@@ -29,13 +29,94 @@ body::before{
 body::after{
   content: "";
   position: relative;
-  width:300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background: linear-gradient(red,#ffeb3b,#14ffe9);
   border-radius: 50%;
-  margin-left: 200px;
+  margin-left: -100px;
   margin-top: 400px;
   overflow: hidden;
   display: flex;
 }
+
+.container{
+  width: 900px;
+  height: 700px;
+  position: absolute;
+  background: rgba( 255, 255, 255, 0.50 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 50px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 11;
+}
+
+.fa-user{
+  color: blueviolet;
+  font-size: 50px;
+  margin: 40px;
+  cursor: pointer;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+h2{
+  color: #555;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  overflow: hidden;
+  margin: 10px; 
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.picture-1{
+ margin-top: 10px;
+ object-fit: cover;
+ overflow: hidden;
+ cursor: pointer;
+}
+.picture-2{
+  object-fit: cover;
+}
+
+img{
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.picture-end{
+  margin-top: -40px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.picture-end{
+  margin-top: -60px;
+  cursor: pointer;
+}
+.bg-color-diffrente-dashboard{
+  background: rgba( 255, 255, 255, 0.50 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  width: 230px;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.bg-color-diffrente-dashboard:hover{
+  width: 350px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+h2:hover{
+  color: blueviolet;
+}
+
 
